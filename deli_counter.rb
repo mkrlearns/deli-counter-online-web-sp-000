@@ -5,7 +5,7 @@ def line(array)
   else
     line_string << ":"
     array.each do |name|
-      line_string << " #{array.index(name) + 1}. #{name}"}
+      line_string << " #{array.index(name) + 1}. #{name}"
     end
   end
   puts line_string
