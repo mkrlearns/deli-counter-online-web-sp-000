@@ -4,7 +4,7 @@ def line(array)
     line_string << " empty."
   else
     line_string << ":"
-    array.each{|name| line_string << " #{array.index(name)}. #{name}"}
+    array.each{|name| line_string << " #{array.index(name) + 1}. #{name}"}
   end
   puts line_string
 end
