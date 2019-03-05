@@ -6,6 +6,7 @@ def line(array)
     line_string << ":"
     array.each do |name|
       line_string << " #{array.index(name) + 1}. #{name}"}
+    end
   end
   puts line_string
 end
